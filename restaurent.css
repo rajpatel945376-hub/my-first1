@@ -1,0 +1,158 @@
+body{
+    text-align: center;
+    background-image: url("img_background.jpg");
+    background-size:cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    height: auto;
+}
+h1{
+    color: red;
+    
+}
+h2{
+    color: red;
+}
+h3{
+    color: white;
+    font-size: x-large;
+}
+.Container{
+       display: flex;
+       justify-content: center;
+       gap: 50px;
+       margin-top:30px;
+}
+.food1{
+    position: relative;
+    margin-left:50px;
+    border:solid 2px white;  
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+    background-size: cover;
+}
+.food2{
+    position: relative;
+    margin-right:50px ;
+    border:solid 2px white;  
+     width: 400px;
+    height: 400px;
+    border-radius: 200px;
+    background-size: cover;
+}
+.food3{
+    position: relative;
+    margin-right: 50px;
+    border:solid 2px white;  
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+    background-size: cover;
+}
+
+#menu{
+    margin-right: 1200px;
+    flex: auto;
+    font-weight: bold;
+    font-size: x-large;
+}
+#food{
+    margin-right: 1400px;
+    font-weight: bold;
+    font-size: xx-large;
+    color: white;
+}
+#Item{
+    font-size: x-large;
+    color: red;
+    margin-right: 1100px;
+    margin-top: -60px;
+}
+#list{
+    color: white;
+    font-weight: bold;
+}
+#drink{
+    margin-left: 700px;
+    margin-top: -30px;
+    position: relative;
+}
+#fluid{
+    font-size: x-large;
+    color:chartreuse;
+    margin-left: 700px;
+    margin-top: -320px;
+  position: absolute;
+    
+}
+#foods{
+        font-size: x-large;
+    color:goldenrod;
+    margin-left: 1200px;
+    margin-top: -370px;
+  position: absolute;
+}
+#Indian{
+           font-size: x-large;
+    color:pink;
+    margin-left: 1200px;
+    margin-top: -340px;
+  position: absolute; 
+}
+.mybutton{
+    border-radius: 10px;
+    background-color: aqua;
+    display: flex;
+    position: absolute;
+    margin-top: 200px; 
+    color: red;
+    font-size: large;
+    transition: 1s;
+}
+.mybutton:hover{
+    background-color: pink;
+    color: black;
+}
+.amazon{
+        border-radius: 10px;
+    background-color:wheat;
+    display: flex;
+    position: absolute;
+    margin-top: 230px; 
+    color: red;
+     font-size: large;
+    transition: 1s;
+}
+.amazon:hover{
+    background-color: greenyellow;
+    color: black;
+}
+.google{
+     color: red;
+        border-radius: 10px;
+    background-color:white;
+    display: flex;
+    position: absolute;
+    margin-top: 260px; 
+     font-size: large;
+    transition: 1s;
+}
+.google:hover{
+    background-color: goldenrod;
+    color: black;
+}
+.flipkart{
+    color: red;
+        border-radius: 10px;
+    background-color:pink;
+    display: flex;
+    position: absolute;
+    margin-top: 290px; 
+     font-size: large;
+    transition: 1s;   
+}
+.flipkart:hover{
+    background-color: red;
+    color: black;
+}
